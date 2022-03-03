@@ -235,8 +235,8 @@ letter-spacing: 0.06em; */ */
 }
 
 .atributes-list {
-  display:flex
-}
+  display:flex;
+  }
 
 .atributes-icon-wrapper {
 	display: flex;
@@ -245,12 +245,17 @@ letter-spacing: 0.06em; */ */
 	height: 120px;
 	background-color: var(--light-grey-backgorund-color);
 	margin-bottom: 30px;
-	border-radius: 4px;
-}
+  border-radius: 4px;
+  }
+
+/* .atributes-icon-wrapper:not(:last-child) {
+  margin-right: 30px;
+} */
 
 .atributes-icon {
 	width: 70px;
 	height: 70px;
+   
 }
 
 .atributes-list-item-header {
@@ -259,22 +264,25 @@ letter-spacing: 0.06em; */ */
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* padding-bottom: 10px; */
+  padding-bottom: 10px;
 
   /* padding: 200px 0 30px; */
-  /* width: 692px;
-  margin: 0 auto; */
+  /* width: 692px; */
+  /* margin: 0 auto; */
 }
 
-.atributes-list-item-header:not(:last-child) {
-  /* padding-right: 30px; */
+.atributes-list-item:not(:last-child) {
+  padding-right: 30px;
 }
+
 .atributes-list-item-text {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--grey-txt-color);
-}
+  /* padding-right: 20px; */
+  }
+
 
 /*  CZYM SIĘ ZAJMUJEMY / WHAT WE DO  */
 
